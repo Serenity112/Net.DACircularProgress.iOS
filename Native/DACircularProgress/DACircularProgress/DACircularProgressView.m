@@ -156,6 +156,11 @@
     return (DACircularProgressLayer *)self.layer;
 }
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    return self;
+}
+
 - (id)init
 {
     return [super initWithFrame:CGRectMake(0.0f, 0.0f, 40.0f, 40.0f)];

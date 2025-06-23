@@ -10,6 +10,8 @@
 
 @interface DACircularProgressView : UIView
 
+- (instancetype)initWithFrame:(CGRect)frame;
+
 @property(nonatomic, strong) UIColor *trackTintColor UI_APPEARANCE_SELECTOR;
 @property(nonatomic, strong) UIColor *progressTintColor UI_APPEARANCE_SELECTOR;
 @property(nonatomic, strong) UIColor *innerTintColor UI_APPEARANCE_SELECTOR;

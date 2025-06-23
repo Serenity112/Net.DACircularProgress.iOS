@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Shout Messenger. All rights reserved.
 //
 
-#import "DACircularProgressView.h"
+#import <DACircularProgress/DACircularProgressView.h>
 
 /**
  @class DALabeledCircularProgressView
