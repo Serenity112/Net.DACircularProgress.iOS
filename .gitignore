@@ -8,7 +8,6 @@ packages/
 TestResults/
 
 Native/DACircularProgress/xcframeworks
-Native/DACircularProgress/DACircularProgress.xcodeproj
 
 # globs
 Makefile.in
